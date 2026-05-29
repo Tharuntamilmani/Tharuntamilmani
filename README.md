@@ -39,7 +39,7 @@
  Connect With Me
 
 - LinkedIn: https://www.linkedin.com/in/tharuntamilmani/
-- Email: tharuntamilmani200601gmail.com
+- Email: tharuntamilmani200601@gmail.com
 
 ---
  Always learning, always building!
