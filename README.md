@@ -157,7 +157,7 @@ Research directions include:
 
  
 
-## 🔭 What I'm Building Toward
+## What I'm Building Toward
 
 I’m interested in building systems where **AI is a component of a larger engineered product**.
 
