@@ -149,11 +149,11 @@ Research directions include:
 
 ## Other Projects
 
-| Project                          | Description                                                     | Stack                                               |
-|           -- |                       |                   |
-| **Student Placement Prediction** | End-to-end ML system for predicting student placement outcomes  | `XGBoost` `Flask` `PostgreSQL` `Streamlit` `MLflow` |
-| **Natural Language → SQL**       | Converts natural-language questions into structured SQL queries | `Python` `NLP` `SQL`                                |
-| **SmartShop Lite**               | Inventory and billing management application                    | `Node.js` `Express.js` `JavaScript`                 |
+| Project                          | What it does                                 | Stack                                               |
+| -------------------------------- | -------------------------------------------- | --------------------------------------------------- |
+| **Student Placement Prediction** | Predicts student placement outcomes using ML | `XGBoost` `Flask` `PostgreSQL` `Streamlit` `MLflow` |
+| **Natural Language → SQL**       | Turns human questions into SQL queries       | `Python` `NLP` `SQL`                                |
+| **SmartShop Lite**               | Inventory and billing management             | `Node.js` `Express.js` `JavaScript`                 |
 
  
 
