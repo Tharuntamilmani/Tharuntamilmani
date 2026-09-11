@@ -2,27 +2,44 @@
 
 ### Pre-Final Year Information Technology Student | AI/ML • Backend • Systems Engineering
 
-I’m an IT student who started with the classic:
+I'm an IT student who likes building things I probably could have avoided building.
 
-> “I’ll just train a model.”
+It started with:
 
-…and somehow ended up building APIs, databases, automation systems, distributed components, dashboards, containers, and questioning my life choices at 2 AM.
+> “I'll just train a model.”
 
-I’m interested in **AI, Machine Learning, Backend Engineering, MLOps, Computer Vision, and System Design** — especially the part where a cool idea has to survive outside a Jupyter Notebook.
+Then came the API.
 
-I like building things that are not only intelligent, but also **usable, testable, deployable, and preferably still working the next morning**.
+Then the database.
 
+Then Docker.
+
+Then testing.
+
+Then some completely unnecessary architecture that somehow became necessary.
+
+And now I'm here.
+
+I’m interested in **AI, Machine Learning, Backend Engineering, MLOps, Computer Vision, AI Agents, and System Design**.
+
+What I enjoy most is taking an idea from **“this would be cool”** to **“wait... this actually works.”**
+
+I’m especially interested in what happens **after the model is trained** — how to turn it into something that can communicate with other systems, handle failures, store data, be tested, deployed, and hopefully not require me to manually restart it every morning.
 
 
 ## What I'm Building
 
 ### Universal Log Pre-Processing Framework — ULPF
 
-A modular cybersecurity framework for turning messy, inconsistent security logs into **standardized and traceable events**.
+Cybersecurity logs are supposed to help you understand what happened.
 
-Because apparently the world decided that every system should have its own log format.
+Unfortunately, they first have to agree on what language they're speaking.
 
-ULPF is being built around independent modules for:
+ULPF is my attempt to solve that problem.
+
+It's a modular cybersecurity event-processing framework designed to take **different security and network log formats** and turn them into **standardized, traceable events**.
+
+The system covers:
 
 * Log ingestion and format detection
 * Parser engine and parser registry
@@ -32,8 +49,9 @@ ULPF is being built around independent modules for:
 * Integrity and trace tracking
 * REST APIs
 * OpenSearch / SIEM integration
-* Management console and Parser Studio
-* Synthetic test data and integration testing
+* Management Console and Parser Studio
+* Synthetic test data
+* Integration and contract testing
 
 **Stack**
 
@@ -43,24 +61,40 @@ ULPF is being built around independent modules for:
 `Docker` `Docker Compose`
 `Pytest` `HTTPX` `Vitest`
 
-I’m also experimenting with **Ollama and local AI** for things like unknown-log analysis, parser suggestions, malformed-log explanations, summarization, and natural-language querying.
+I'm also experimenting with **local AI through Ollama** for things like:
 
-The important part: AI can help, but the core pipeline still needs to behave predictably.
+* Unknown-log analysis
+* Parser suggestions
+* Malformed-log explanations
+* Event summarization
+* Natural-language querying
 
-Because “the LLM felt like doing something different today” is not exactly a great production strategy.
+But AI isn't allowed to randomly decide how the core pipeline behaves.
+
+Because if the answer to a production bug is:
+
+> “The model felt creative.”
+
+we probably have bigger problems.
 
 
 ### THIRAN 2.7
 
-A **local-first AI assistant and automation runtime for Windows**.
+At some point I thought:
 
-The original idea was basically:
+> “It would be nice to have my own AI assistant.”
 
-> “What if I had my own AI assistant?”
+Apparently I didn't understand what I was getting myself into.
 
-That question escalated quickly.
+THIRAN 2.7 is a **local-first AI assistant and automation runtime for Windows**.
 
-THIRAN now explores:
+The idea is simple:
+
+**Tell the computer what you want. Let the system figure out how to do it.**
+
+Making that reliable is considerably less simple.
+
+THIRAN currently explores:
 
 * Task planning and execution
 * Local LLMs through Ollama
@@ -82,24 +116,32 @@ THIRAN now explores:
 `Plugin Architecture` `Task Planning`
 `Local-First Systems`
 
-The goal is not to build another chatbot that confidently says:
+The goal isn't to make a chatbot that says:
 
-> “Sure, I've completed that.”
+> “Done!”
 
-when absolutely nothing happened.
+while staring at the same screen it was staring at five seconds ago.
 
-The goal is to build an AI system that can **plan, execute, verify, and recover from tasks in a controlled way**.
+I want THIRAN to **plan, execute, verify, handle failures, and recover**.
+
+Basically, I'm trying to make AI do useful computer work without giving it the ability to destroy civilization because I asked it to open Notepad.
 
 
 ### View-Invariant 3D Fall Detection
 
-A research-oriented computer vision project focused on **cross-view human fall detection**.
+This one started with a relatively straightforward question:
 
-Because detecting a fall from one carefully positioned camera is one thing.
+> “Can we reliably detect a fall?”
 
-Making it work when the camera decides to move somewhere else is a completely different problem.
+Then came the obvious follow-up:
 
-The project explores:
+> “What if the camera moves?”
+
+And suddenly we're discussing **3D pose lifting, skeleton representations, cross-view generalization, ST-GCNs, Transformers, and evaluation protocols**.
+
+The project investigates **view-invariant human fall detection** using 3D and skeleton-based representations.
+
+Current research directions include:
 
 * 3D human-pose lifting
 * View-invariant representations
@@ -115,18 +157,12 @@ The project explores:
 `Computer Vision` `Deep Learning`
 `3D Human Pose` `ST-GCN` `Transformers`
 
-The goal is to move beyond:
-
-```text
-Camera → 2D Pose → Prediction
-```
-
-toward more robust:
+The basic idea:
 
 ```text
 Camera
    ↓
-Pose
+Human Pose
    ↓
 3D Representation
    ↓
@@ -135,24 +171,25 @@ Skeleton Model
 Fall / No Fall
 ```
 
-And yes, getting models to behave consistently across viewpoints is about as fun as it sounds.
+The difficult part is convincing the model that a person falling from a completely different camera angle is still, in fact, the same person falling.
+
+Apparently computers need convincing.
 
 
+## Things I Actually Enjoy Building
 
-## Things I Like Building
-
-* AI systems that actually do something
+* AI systems that do more than generate text
 * Machine learning pipelines
 * Backend APIs
 * AI agents and automation
 * Computer vision systems
-* Cybersecurity data pipelines
+* Cybersecurity pipelines
+* Data-processing systems
 * MLOps workflows
 * Modular architectures
 * Databases and search systems
 * Dockerized applications
-* Systems that survive contact with reality
-
+* Things that sounded simple before I started building them
 
 
 ## My Toolbox
@@ -191,87 +228,86 @@ And yes, getting models to behave consistently across viewpoints is about as fun
 `Pytest` `HTTPX` `Vitest`
 `Ruff` `Black` `Mypy`
 
-
+---
 
 ## Other Things I've Built
 
-| Project                          | What it does                                 | Stack                                               |
-| -------------------------------- | -------------------------------------------- | --------------------------------------------------- |
-| **Student Placement Prediction** | Predicts student placement outcomes using ML | `XGBoost` `Flask` `PostgreSQL` `Streamlit` `MLflow` |
-| **Natural Language → SQL**       | Turns human questions into SQL queries       | `Python` `NLP` `SQL`                                |
-| **SmartShop Lite**               | Inventory and billing management             | `Node.js` `Express.js` `JavaScript`                 |
+| Project                          | What happened                                                                        | Stack                                               |
+| -------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------- |
+| **Student Placement Prediction** | Trained a model, then accidentally turned it into a complete application             | `XGBoost` `Flask` `PostgreSQL` `Streamlit` `MLflow` |
+| **Natural Language → SQL**       | Tried to make databases understand humans                                            | `Python` `NLP` `SQL`                                |
+| **SmartShop Lite**               | Built an inventory and billing system because spreadsheets eventually stop being fun | `Node.js` `Express.js` `JavaScript`                 |
 
 
+## What I'm Really Interested In
 
-## Where I'm Heading
+The part of technology that interests me most is the gap between:
 
-I’m particularly interested in the space where **AI meets actual software engineering**.
+> **“The model works.”**
 
-I don't want my projects to live forever as:
+and
 
-```text
-final_model_v7_REAL_FINAL.ipynb
-```
+> **“The system works.”**
 
-I want to build systems that look more like:
+There's a surprisingly large amount of engineering hiding between those two sentences.
 
-```text
-Data
-  ↓
-Processing
-  ↓
-Model / Intelligence
-  ↓
-API
-  ↓
-Storage
-  ↓
-Testing
-  ↓
-Deployment
-  ↓
-Monitoring
-  ↓
-Hopefully nothing catches fire
-```
+That's where I want to spend my time.
 
-My current interests are:
+I'm particularly interested in:
 
 `AI Agents` • `Generative AI` • `Machine Learning`
 `Backend Engineering` • `Computer Vision`
 `Cybersecurity` • `MLOps` • `System Design`
 
 
-
-## How I Usually Build Things
+## How Most of My Projects Actually Go
 
 ```text
 Have an idea
      ↓
-Build a prototype
+"This should be easy."
      ↓
-Break the prototype
+Build prototype
      ↓
-Figure out why it broke
+Something breaks
+     ↓
+"Okay, that's weird."
+     ↓
+Fix it
+     ↓
+Something else breaks
+     ↓
+Add logging
      ↓
 Add tests
      ↓
 Break it again
      ↓
-Dockerize it
+Dockerize everything
      ↓
-Find another problem
+Discover a completely unrelated problem
      ↓
-Fix that
+Question architectural decisions
      ↓
-Repeat
+Fix it
+     ↓
+"It works!"
+     ↓
+Don't touch anything
+     ↓
+Touch something
+     ↓
+It breaks again
 ```
 
-Somewhere along the way, it usually becomes a real project.
-
+This is generally where the learning happens.
 
 
 ## Engineering Philosophy
+
+I don't think good engineering means never breaking things.
+
+It means understanding **why they broke** and making the next version harder to break.
 
 I like systems that are:
 
@@ -280,10 +316,58 @@ Simple enough to understand.
 Modular enough to change.
 Tested enough to survive my next idea.**
 
-And most importantly:
+And I strongly believe:
 
-> **Build first. Break things. Understand why. Fix them better.**
+> **If you don't understand why it works, you probably don't understand it yet.**
 
+So my usual process is:
+
+```text
+Learn → Build → Break → Debug → Understand → Improve
+```
+
+
+## Where I'm Going
+
+I don't have everything figured out yet.
+
+I'm still learning, still experimenting, and still occasionally Googling errors that I definitely should have understood myself.
+
+But I know the kind of engineer I want to become:
+
+Someone who can take an idea, **design the system, build it, deploy it, break it, understand it, and make it better.**
+
+Not just:
+
+```text
+model.fit()
+```
+
+but:
+
+```text
+idea
+  ↓
+architecture
+  ↓
+data
+  ↓
+intelligence
+  ↓
+backend
+  ↓
+storage
+  ↓
+testing
+  ↓
+deployment
+  ↓
+monitoring
+  ↓
+something people can actually use
+```
+
+That's the direction I'm building toward.
 
 
 ## Let's Connect
@@ -294,6 +378,7 @@ https://www.linkedin.com/in/tharuntamilmani/
 **Email:**
 [tharuntamilmani200601@gmail.com](mailto:tharuntamilmani200601@gmail.com)
 
+If you're building something interesting around **AI, ML, backend systems, automation, computer vision, or just trying to make a piece of software behave**, feel free to connect.
 
 
 ### Learn. Build. Break. Improve. Repeat.
