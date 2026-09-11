@@ -8,7 +8,6 @@ My focus is not just on building models or prototypes, but on engineering the sy
 
 Currently, I’m working across **AI agents, cybersecurity data processing, computer vision, ML systems, and containerized applications**.
 
----
 
 ## Current Work
 
@@ -36,7 +35,7 @@ The system is being engineered as a layered pipeline covering:
 
 I’m also exploring **Ollama-powered local AI capabilities** as an optional intelligence layer for unknown-log analysis, parser assistance, malformed-event analysis, summarization, and natural-language querying — while keeping the core processing pipeline **deterministic and schema-driven**.
 
----
+ 
 
 ### THIRAN 2.7 — Local AI Assistant & Automation Runtime
 
@@ -68,7 +67,7 @@ Current areas include:
 
 The core goal is to explore how **AI agents can become reliable software systems rather than uncontrolled collections of LLM prompts**.
 
----
+ 
 
 ### View-Invariant 3D Fall Detection
 
@@ -93,7 +92,7 @@ Research directions include:
 `3D Human Pose` `ST-GCN` `Transformers`
 `Skeleton-Based Learning`
 
----
+ 
 
 ## Areas of Interest
 
@@ -108,7 +107,7 @@ Research directions include:
 **Databases & Data Engineering**
 **Containerized & Distributed Systems**
 
----
+ 
 
 ## Technical Stack
 
@@ -146,17 +145,17 @@ Research directions include:
 `Ruff` `Black` `Mypy`
 `Git` `GitHub`
 
----
+ 
 
 ## Other Projects
 
 | Project                          | Description                                                     | Stack                                               |
-| -------------------------------- | --------------------------------------------------------------- | --------------------------------------------------- |
+|           -- |                       |                   |
 | **Student Placement Prediction** | End-to-end ML system for predicting student placement outcomes  | `XGBoost` `Flask` `PostgreSQL` `Streamlit` `MLflow` |
 | **Natural Language → SQL**       | Converts natural-language questions into structured SQL queries | `Python` `NLP` `SQL`                                |
 | **SmartShop Lite**               | Inventory and billing management application                    | `Node.js` `Express.js` `JavaScript`                 |
 
----
+ 
 
 ## 🔭 What I'm Building Toward
 
@@ -192,7 +191,7 @@ Real-World Application
 
 I’m particularly interested in **AI agents, intelligent backend systems, cybersecurity automation, computer vision, MLOps, and reliable AI infrastructure**.
 
----
+ 
 
 ## Engineering Philosophy
 
@@ -209,7 +208,7 @@ It should be:
 > **I don't want to stop at building the model.
 > I want to engineer the system around it.**
 
----
+ 
 
 ## Connect With Me
 
@@ -219,6 +218,6 @@ https://www.linkedin.com/in/tharuntamilmani/
 **Email:**
 [tharuntamilmani200601@gmail.com](mailto:tharuntamilmani200601@gmail.com)
 
----
+ 
 
 ### Learn. Build. Break. Improve. Repeat. 
