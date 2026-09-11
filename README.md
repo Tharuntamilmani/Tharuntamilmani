@@ -12,7 +12,7 @@ I’m interested in **AI, Machine Learning, Backend Engineering, MLOps, Computer
 
 I like building things that are not only intelligent, but also **usable, testable, deployable, and preferably still working the next morning**.
 
----
+
 
 ## What I'm Building
 
@@ -49,7 +49,6 @@ The important part: AI can help, but the core pipeline still needs to behave pre
 
 Because “the LLM felt like doing something different today” is not exactly a great production strategy.
 
----
 
 ### THIRAN 2.7
 
@@ -91,7 +90,6 @@ when absolutely nothing happened.
 
 The goal is to build an AI system that can **plan, execute, verify, and recover from tasks in a controlled way**.
 
----
 
 ### View-Invariant 3D Fall Detection
 
@@ -139,7 +137,7 @@ Fall / No Fall
 
 And yes, getting models to behave consistently across viewpoints is about as fun as it sounds.
 
----
+
 
 ## Things I Like Building
 
@@ -155,7 +153,7 @@ And yes, getting models to behave consistently across viewpoints is about as fun
 * Dockerized applications
 * Systems that survive contact with reality
 
----
+
 
 ## My Toolbox
 
@@ -193,7 +191,7 @@ And yes, getting models to behave consistently across viewpoints is about as fun
 `Pytest` `HTTPX` `Vitest`
 `Ruff` `Black` `Mypy`
 
----
+
 
 ## Other Things I've Built
 
@@ -203,7 +201,7 @@ And yes, getting models to behave consistently across viewpoints is about as fun
 | **Natural Language → SQL**       | Turns human questions into SQL queries       | `Python` `NLP` `SQL`                                |
 | **SmartShop Lite**               | Inventory and billing management             | `Node.js` `Express.js` `JavaScript`                 |
 
----
+
 
 ## Where I'm Heading
 
@@ -243,7 +241,7 @@ My current interests are:
 `Backend Engineering` • `Computer Vision`
 `Cybersecurity` • `MLOps` • `System Design`
 
----
+
 
 ## How I Usually Build Things
 
@@ -271,7 +269,7 @@ Repeat
 
 Somewhere along the way, it usually becomes a real project.
 
----
+
 
 ## Engineering Philosophy
 
@@ -286,7 +284,7 @@ And most importantly:
 
 > **Build first. Break things. Understand why. Fix them better.**
 
----
+
 
 ## Let's Connect
 
@@ -296,6 +294,6 @@ https://www.linkedin.com/in/tharuntamilmani/
 **Email:**
 [tharuntamilmani200601@gmail.com](mailto:tharuntamilmani200601@gmail.com)
 
----
+
 
 ### Learn. Build. Break. Improve. Repeat.
